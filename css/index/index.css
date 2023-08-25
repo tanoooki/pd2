@@ -106,7 +106,7 @@ body {
     background-color: #fff;
 }
 
-.sobre h1 {
+.sobre h1, .cuidados h1 {
     font-size: 3.2rem;
     text-align: center;
     padding-top: 50px;
@@ -177,7 +177,9 @@ body {
     text-align: center;
 }
 
-
+.destaques-produtos {
+    padding-bottom: 60px;
+}
 
 .destaques-produtos h1{
     font-size: 3.2rem;
@@ -185,4 +187,59 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
     color: #461220;
+}
+
+.produtos-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px;
+}
+
+.produtos-display img{
+ max-width: 300px;
+ max-height: 300px;
+ border-radius: 4px;
+}
+
+.cuidados {
+    background-color: #fff;
+}
+
+.cuidados-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    align-items: center;
+    text-align: justify;
+}
+
+.cesta {
+    max-width: 750px;
+    width: 35vw;
+}
+
+.caneca {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    background: #461220;
+    margin-top: 20px;
+    padding: 15px 10px;
+    color: #fff;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.caneca img{
+    width: 100px;
+}
+
+.caneca span {
+    display: block;
+    padding: 20px;
 }
